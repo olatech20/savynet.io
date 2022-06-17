@@ -1,0 +1,75 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding:0;
+}
+
+.first-container{
+    background-color: bisque;
+    width: 350px;
+    height: 100vh;
+}
+.first-container h1{
+   text-align: center;
+   padding-top: 80px;
+   padding-left: 150px;
+}
+.first-container p{
+    text-align: center;
+    margin: 100px;
+    font-size: 25px;
+    line-height: 40px;
+    color: blue;
+    margin-bottom: 40px;
+}
+.sub{
+    color: blue;
+    width: 150px;
+    height: 30px;
+    margin-left:160px;
+    border-radius: 12px;
+    border: solid blue;
+    background-color: blue;
+    color: white;
+}
+.second-container{
+    background-image: url(kitchenn.jpg);
+    width: 1000px;
+    height: 660px;
+    background-position: center;
+    background-size: cover;
+    margin-left:350px;
+    margin-top: -570px;
+}
+.first-container .second-container ul {
+    padding: 15px;
+    margin: 15px;  
+    display: inline-flex;
+  
+}
+.first-container .second-container ul a{
+    text-decoration: none;
+    color: green;
+   
+    
+}
+.second-container li{
+    list-style: none;
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 45px;
+   
+}
+.active, .second-container ul li:hover{
+    background-color: greenyellow;
+    border-radius: 3px;
+    height: 22px;
+    padding: 15px;
+}
+.fa{
+    margin-right: 5px;
+}
+
+
+

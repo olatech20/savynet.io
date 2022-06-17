@@ -1,0 +1,130 @@
+.drop-down{
+    padding: 0;
+    margin: 0;
+
+}
+
+.drop-down ul{
+    list-style-type: none;
+
+}
+
+ul li{
+    float: left;
+    padding: 20px;
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.right{
+    float: right;
+    padding: 20px;
+}
+
+.right i{
+    font-size: 30px;
+    color: black;
+}
+
+.second-container{
+    background-color: white;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 80px;
+    
+}
+
+#img{
+    border-radius: 30px;
+
+}
+
+#fsc{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+#fsc img{
+    border-radius: 10px;
+
+}
+.img1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    opacity: 0.5;
+}
+
+.img2{
+    position: relative;
+    top: 10px;
+    left: -50px;
+}
+
+.img3{
+    position: relative;
+    top: 10px;
+    left: -100px;
+
+}
+
+.img4{
+    position: relative;
+    top: 10px;
+    left: -150px;
+}
+
+.s-second-container{
+    position: relative;
+    top: 50px;
+    left: -150px;
+
+}
+
+.number{
+    position: relative;
+    bottom: 62px;
+    right: 430px;
+    float: right;
+   color: tomato;
+   background-color: bisque;
+   border-radius: 3px;
+}
+
+.num{
+    font-size: 23px;
+}
+
+.can{
+    position: relative;
+    bottom: 15px;
+}
+
+.na{
+    position: relative;
+    display: flex;
+    background-color: aliceblue;
+    width: 20%;
+    
+    
+}
+
+
+.na p{
+    display: flex;
+   text-align: center;
+   margin-right: 20px;
+   font-size: 15px;
+}
+
+.dig button{
+    width: 200px;
+    height:50px ;
+    border-radius: 7px;
+    border: solid tomato;
+    background-color: tomato;
+    color: white;
+    
+}
